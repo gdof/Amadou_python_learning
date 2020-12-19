@@ -25,7 +25,7 @@ elif user_input == "yes":
     choice_list = ["rock", "paper", "scissor"]
     random_choice = random.choice(choice_list)
     if user_choice == random_choice:
- 3-30-303       print("aye you guess right")
+        print("aye you guess right")
     else:
         print("guess again")
 # else the user don't choice yes or no print out wrong input    
